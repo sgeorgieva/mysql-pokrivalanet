@@ -14,11 +14,9 @@ services:
 envVarGroups:
 - name: mysql
   envVars:
-  - key: MYSQL_DATABASE
+  - key: DB
     value: mysql
-  - key: MYSQL_USER
+  - key: USER
     value: mysql
-  - key: MYSQL_PASSWORD
-    generateValue: true
-  - key: MYSQL_ROOT_PASSWORD
+  - key: PASSWORD
     generateValue: true
