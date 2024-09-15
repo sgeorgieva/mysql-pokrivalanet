@@ -22,3 +22,5 @@ envVarGroups:
     value: MYSQL_PASSWORD
   - key: MYSQL_ROOT_PASSWORD
     value: MYSQL_ROOT_PASSWORD
+  - key: PORT
+    value: PORT
